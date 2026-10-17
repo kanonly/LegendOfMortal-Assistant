@@ -1,0 +1,646 @@
+[
+  {
+    "id": 0,
+    "name": "激活",
+    "parent": null,
+    "type": "Auto Assembler Script",
+    "encoded": true
+  },
+  {
+    "id": 1,
+    "name": "数据",
+    "parent": 0,
+    "type": "",
+    "encoded": false
+  },
+  {
+    "id": 2,
+    "name": "游戏时间",
+    "parent": 1,
+    "type": "Array of byte",
+    "encoded": false
+  },
+  {
+    "id": 3,
+    "name": "第几年",
+    "parent": 2,
+    "type": "4 Bytes",
+    "encoded": false
+  },
+  {
+    "id": 4,
+    "name": "月份",
+    "parent": 2,
+    "type": "4 Bytes",
+    "encoded": false
+  },
+  {
+    "id": 5,
+    "name": "阶段",
+    "parent": 2,
+    "type": "4 Bytes",
+    "encoded": false
+  },
+  {
+    "id": 6,
+    "name": "环境",
+    "parent": 2,
+    "type": "4 Bytes",
+    "encoded": false
+  },
+  {
+    "id": 7,
+    "name": "主角属性",
+    "parent": 1,
+    "type": "Auto Assembler Script",
+    "encoded": true
+  },
+  {
+    "id": 8,
+    "name": "人际关系",
+    "parent": 1,
+    "type": "Auto Assembler Script",
+    "encoded": true
+  },
+  {
+    "id": 9,
+    "name": "物品数量",
+    "parent": 1,
+    "type": "Array of byte",
+    "encoded": false
+  },
+  {
+    "id": 10,
+    "name": "书籍",
+    "parent": 9,
+    "type": "Auto Assembler Script",
+    "encoded": true
+  },
+  {
+    "id": 11,
+    "name": "杂项",
+    "parent": 9,
+    "type": "Auto Assembler Script",
+    "encoded": true
+  },
+  {
+    "id": 12,
+    "name": "宝物",
+    "parent": 9,
+    "type": "Auto Assembler Script",
+    "encoded": true
+  },
+  {
+    "id": 13,
+    "name": "消耗品",
+    "parent": 9,
+    "type": "Auto Assembler Script",
+    "encoded": true
+  },
+  {
+    "id": 14,
+    "name": "脚本",
+    "parent": 0,
+    "type": "",
+    "encoded": false
+  },
+  {
+    "id": 15,
+    "name": "炼丹最大消费不减反增",
+    "parent": 14,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 16,
+    "name": "修炼最大消费不减反增",
+    "parent": 14,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 17,
+    "name": "炼丹开发无门派规模要求",
+    "parent": 14,
+    "type": "Auto Assembler Script",
+    "encoded": true
+  },
+  {
+    "id": 18,
+    "name": "锻造开发无门派规模要求",
+    "parent": 14,
+    "type": "Auto Assembler Script",
+    "encoded": true
+  },
+  {
+    "id": 19,
+    "name": "属性不减反增",
+    "parent": 14,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 20,
+    "name": "行动次数不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 21,
+    "name": "额外行动次数不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 22,
+    "name": "额外行动次数2不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 23,
+    "name": "额外行动次数3不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 24,
+    "name": "体力不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 25,
+    "name": "内力不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 26,
+    "name": "轻功不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 27,
+    "name": "银两不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 28,
+    "name": "魅力不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 29,
+    "name": "学问不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 30,
+    "name": "心相不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 31,
+    "name": "命运不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 32,
+    "name": "处事不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 33,
+    "name": "修养不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 34,
+    "name": "道德不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 35,
+    "name": "嘴力不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 36,
+    "name": "门派规模不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 37,
+    "name": "门派名声不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 38,
+    "name": "门派人数不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 39,
+    "name": "向心力不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 40,
+    "name": "锻造不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 41,
+    "name": "毒药不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 42,
+    "name": "个人贡献度不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 43,
+    "name": "厨艺不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 44,
+    "name": "抗毒不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 45,
+    "name": "抗麻不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 46,
+    "name": "阴阳内功不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 47,
+    "name": "防御不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 48,
+    "name": "武学点数不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 49,
+    "name": "全武学点数不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 50,
+    "name": "门派资产不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 51,
+    "name": "门派贡献不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 52,
+    "name": "全锻造点数不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 53,
+    "name": "全毒药点数不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 54,
+    "name": "全贡献度不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 55,
+    "name": "武功刀剑不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 56,
+    "name": "武功暗器不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 57,
+    "name": "武功拳掌不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 58,
+    "name": "武功腿法不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 59,
+    "name": "武功奇门不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 60,
+    "name": "武功软兵器不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 61,
+    "name": "武功枪棍不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 62,
+    "name": "武功内功不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 63,
+    "name": "儒学不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 64,
+    "name": "道学不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 65,
+    "name": "佛学不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 66,
+    "name": "性情不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 67,
+    "name": "称号不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 68,
+    "name": "爱人不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 69,
+    "name": "娘化不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 70,
+    "name": "变心不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 71,
+    "name": "战役预设血量不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 72,
+    "name": "攻击暴击不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 73,
+    "name": "暗器暴击不减反增",
+    "parent": 19,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 74,
+    "name": "好感度增长加倍",
+    "parent": 14,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 75,
+    "name": "倍率",
+    "parent": 74,
+    "type": "4 Bytes",
+    "encoded": false
+  },
+  {
+    "id": 76,
+    "name": "好感只增不减",
+    "parent": 74,
+    "type": "4 Bytes",
+    "encoded": false
+  },
+  {
+    "id": 77,
+    "name": "战役设置",
+    "parent": 14,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 78,
+    "name": "人数不减",
+    "parent": 77,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 79,
+    "name": "生命不减反增",
+    "parent": 77,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 80,
+    "name": "内力不减反增",
+    "parent": 77,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 81,
+    "name": "敌人内力快速清零",
+    "parent": 77,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 82,
+    "name": "伤害加倍",
+    "parent": 77,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 83,
+    "name": "倍数",
+    "parent": 82,
+    "type": "4 Bytes",
+    "encoded": false
+  },
+  {
+    "id": 84,
+    "name": "决斗设置",
+    "parent": 14,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 85,
+    "name": "生命不减反增",
+    "parent": 84,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 86,
+    "name": "内力不减反增",
+    "parent": 84,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 87,
+    "name": "敌人内力快速清零",
+    "parent": 84,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 88,
+    "name": "伤害加倍",
+    "parent": 84,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 89,
+    "name": "倍数",
+    "parent": 88,
+    "type": "4 Bytes",
+    "encoded": false
+  },
+  {
+    "id": 90,
+    "name": "设置天命轮盘点数",
+    "parent": 14,
+    "type": "Auto Assembler Script",
+    "encoded": false
+  },
+  {
+    "id": 91,
+    "name": "骰子点数",
+    "parent": 90,
+    "type": "4 Bytes",
+    "encoded": false
+  }
+]

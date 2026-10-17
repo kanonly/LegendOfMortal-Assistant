@@ -1,0 +1,22 @@
+[
+  {
+    "file": "0Harmony.dll",
+    "assembly": "0Harmony, Version=2.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "sha256": "9710c782b13742fa23b9fc2c3608263ba6f1d08ef1342898fc26a8f539d3f247"
+  },
+  {
+    "file": "Mono.Cecil.dll",
+    "assembly": "Mono.Cecil, Version=0.10.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e",
+    "sha256": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6"
+  },
+  {
+    "file": "MonoMod.RuntimeDetour.dll",
+    "assembly": "MonoMod.RuntimeDetour, Version=22.7.31.1, Culture=neutral, PublicKeyToken=null",
+    "sha256": "6120a4a1fa3287b149f408eeac04c017c6453e8fd69dbc5d12f1489c087385ab"
+  },
+  {
+    "file": "MonoMod.Utils.dll",
+    "assembly": "MonoMod.Utils, Version=22.7.31.1, Culture=neutral, PublicKeyToken=null",
+    "sha256": "c764fa0141e3b9308ae25808baea11feabc0b4843ecfc28ec5c5cc470d6ab420"
+  }
+]

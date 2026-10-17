@@ -1,0 +1,14 @@
+/archive/
+/build/
+/dist/
+/助手数据/
+*.exe
+*.pdb
+*.log
+*.user
+*.suo
+/tests/*results*
+/tests/*smoke*.json
+/tests/*live*.json
+/tests/*reconnect*.json
+!third-party/managed/*.dll

@@ -1,0 +1,29 @@
+第三方组件、来源与许可
+
+本发行版使用外部 Cheat Engine 7.5 x64。CE、其 Lua 运行库及 Mono 采集器均不随包提供，也不会由助手下载。
+请用户自行安装并遵守 CE 自身授权；本项目的非商业许可不对 CE 授予任何权利。
+CE 官方网站：https://www.cheatengine.org/
+CE 7.5 源码参考：https://github.com/cheat-engine/cheat-engine/tree/7.5
+
+以下增强依赖随包提供，完整 MIT 许可文本位于同目录对应 LICENSE 文件，并内嵌于程序。
+这些组件继续按各自原许可证授权，不受本项目的非商业限制重新许可。
+
+HarmonyX 2.10.2 / Copyright (c) 2020 BepInEx
+https://github.com/BepInEx/HarmonyX/tree/v2.10.2
+https://github.com/BepInEx/HarmonyX/blob/v2.10.2/LICENSE
+
+MonoMod.Utils、MonoMod.RuntimeDetour 22.7.31.1 / Copyright (c) 2015-2020 0x0ade
+https://github.com/MonoMod/MonoMod
+https://github.com/MonoMod/MonoMod/blob/master/LICENSE
+
+Mono.Cecil 0.10.4 / Copyright (c) 2008-2015 Jb Evain; 2008-2011 Novell, Inc.
+https://github.com/jbevain/cecil/tree/0.10.4
+https://github.com/jbevain/cecil/blob/0.10.4/LICENSE.txt
+
+Lua 许可文本仅作外部 CE 所用 Lua 5.3 的参考保留；本发行版不提供 Lua 二进制。
+https://www.lua.org/manual/5.3/readme.html#license
+
+依赖精确哈希与程序集版本见 managed-manifest.json。
+GPT娘角色来源：ZipZipPipe
+角色图：参考用户提供的角色设计，由 OpenAI imagegen 生成新图；参考原图不随包提供。
+程序图标：由本项目现有角色素材转换为多尺寸 ICO，没有重新绘制角色。

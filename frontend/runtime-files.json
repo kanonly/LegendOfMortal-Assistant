@@ -1,0 +1,3 @@
+{
+  "managed": ["Mono.Cecil.dll", "MonoMod.Utils.dll", "MonoMod.RuntimeDetour.dll", "0Harmony.dll"]
+}
